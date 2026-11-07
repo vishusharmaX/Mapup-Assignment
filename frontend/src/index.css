@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+@import "leaflet-draw/dist/leaflet.draw.css";
+
+@layer base {
+  :root {
+    --navy-deep: #101B2D;
+    --navy-midnight: #17243A;
+    --primary-blue: #2563EB;
+    --teal-accent: #0F9D8A;
+    --background: #F5F7FA;
+    --surface: #FFFFFF;
+    --border: #E5EAF0;
+    --text-main: #172033;
+    --text-muted: #667085;
+    --success: #16A36A;
+    --warning: #E9A23B;
+    --danger: #DC4C4C;
+    --info: #3984DB;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text-main);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Leaflet container adjustments */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  z-index: 10;
+}
+
+/* Pulse animation for active vehicle markers */
+@keyframes markerPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(37, 99, 235, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0);
+  }
+}
+
+.vehicle-pulse {
+  animation: markerPulse 2s infinite;
+}
