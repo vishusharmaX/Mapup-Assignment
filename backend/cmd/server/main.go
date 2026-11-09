@@ -34,7 +34,7 @@ func main() {
 	slog.Info("Starting FleetPulse API Server", "env", cfg.Environment, "port", cfg.Port)
 
 	// 3. Connect to PostgreSQL + PostGIS database
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 20*time.Second)
 	defer cancel()
 
 	pool, err := database.NewPool(ctx, cfg.DatabaseURL)

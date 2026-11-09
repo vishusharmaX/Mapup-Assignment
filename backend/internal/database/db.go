@@ -17,8 +17,8 @@ func NewPool(ctx context.Context, connString string) (*pgxpool.Pool, error) {
 		return nil, fmt.Errorf("unable to parse connection string: %w", err)
 	}
 
-	cfg.MaxConns = 25
-	cfg.MinConns = 5
+	cfg.MaxConns = 20
+	cfg.MinConns = 2
 	cfg.MaxConnLifetime = 1 * time.Hour
 	cfg.MaxConnIdleTime = 30 * time.Minute
 	cfg.HealthCheckPeriod = 1 * time.Minute
@@ -28,7 +28,7 @@ func NewPool(ctx context.Context, connString string) (*pgxpool.Pool, error) {
 		return nil, fmt.Errorf("unable to create connection pool: %w", err)
 	}
 
-	pingCtx, cancel := context.WithTimeout(ctx, 5*time.Second)
+	pingCtx, cancel := context.WithTimeout(ctx, 15*time.Second)
 	defer cancel()
 
 	if err := pool.Ping(pingCtx); err != nil {
