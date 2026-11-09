@@ -163,3 +163,4 @@ Once deployed, verify the end-to-end flow:
 | **Docker Hub Image link** | `https://hub.docker.com/r/johndoe/fleetpulse-backend` |
 | **Base URL of your deployed Frontend** | `https://fleetpulse-frontend.vercel.app` |
 | **Base URL of your deployed Backend** | `https://fleetpulse-backend.onrender.com` |
+

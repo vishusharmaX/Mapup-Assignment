@@ -41,3 +41,4 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME || 'mapup' }}/fleetpulse-frontend:latest
             ${{ secrets.DOCKERHUB_USERNAME || 'mapup' }}/fleetpulse-frontend:${{ github.sha }}
+
