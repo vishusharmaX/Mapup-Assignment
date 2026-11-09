@@ -193,3 +193,4 @@ export const VehicleTable: React.FC<VehicleTableProps> = ({
     </div>
   )
 }
+

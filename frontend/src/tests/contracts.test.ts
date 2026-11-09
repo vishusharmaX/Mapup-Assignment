@@ -39,3 +39,4 @@ describe('Frontend API Contracts & Base Configurations', () => {
     expect(validCategories).toContain('customer_area')
   })
 })
+

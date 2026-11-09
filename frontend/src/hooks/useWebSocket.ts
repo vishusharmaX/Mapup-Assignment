@@ -126,3 +126,4 @@ export function useWebSocket(onEventReceived?: (event: WebSocketAlertEvent) => v
     reconnect: connect,
   }
 }
+

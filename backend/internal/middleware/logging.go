@@ -36,3 +36,4 @@ func StructuredLogger(next http.Handler) http.Handler {
 		)
 	})
 }
+

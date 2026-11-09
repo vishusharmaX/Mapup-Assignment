@@ -246,3 +246,4 @@ func (r *violationRepo) GetTopTriggeredGeofences(ctx context.Context, limit int)
 	}
 	return result, nil
 }
+

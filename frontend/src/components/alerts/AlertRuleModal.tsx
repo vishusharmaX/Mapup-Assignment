@@ -164,3 +164,4 @@ export const AlertRuleModal: React.FC<AlertRuleModalProps> = ({
     </Dialog>
   )
 }
+

@@ -18,3 +18,4 @@ echo "host all all ::/0 md5" >> $CONF_DIR/pg_hba.conf
 service postgresql restart
 
 echo "POSTGRES_READY"
+

@@ -55,3 +55,4 @@ func (r *ConfigureAlertRequest) Validate() error {
 	}
 	return nil
 }
+

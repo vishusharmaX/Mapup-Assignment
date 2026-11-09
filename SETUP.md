@@ -434,3 +434,4 @@ npm run build
    - Alert violations are persisted to the database inside the transaction.
    - Database transaction commits **before** WebSocket network broadcast.
    - Slow or disconnecting clients are handled via buffered channels without delaying HTTP responses.
+

@@ -40,3 +40,4 @@ func (h *HealthHandler) Health(w http.ResponseWriter, r *http.Request) {
 		"version":  "1.0.0",
 	})
 }
+

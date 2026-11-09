@@ -95,3 +95,4 @@ export function EventBadge({ eventType }: { eventType: string }) {
     </span>
   )
 }
+

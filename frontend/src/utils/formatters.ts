@@ -51,3 +51,4 @@ export function formatNanoseconds(nsStr?: string): string {
   if (ns < 1000000) return `${(ns / 1000).toFixed(2)} µs`
   return `${(ns / 1000000).toFixed(2)} ms`
 }
+

@@ -91,3 +91,4 @@ type UpdateGeofenceRequest struct {
 	Coordinates *[]Coordinate     `json:"coordinates,omitempty"`
 	IsActive    *bool             `json:"is_active,omitempty"`
 }
+

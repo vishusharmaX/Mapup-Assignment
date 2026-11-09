@@ -77,3 +77,4 @@ func RunMigrations(ctx context.Context, pool *pgxpool.Pool, migrationFilePath st
 	slog.Info("Database migrations completed successfully")
 	return nil
 }
+

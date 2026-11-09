@@ -109,3 +109,4 @@ func (s *alertService) Toggle(ctx context.Context, id uuid.UUID, isActive bool) 
 	}
 	return s.repo.ToggleActive(ctx, id, isActive)
 }
+

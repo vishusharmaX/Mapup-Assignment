@@ -84,3 +84,4 @@ export function useGeofences(category?: string) {
     isDeleting: deleteMutation.isPending,
   }
 }
+

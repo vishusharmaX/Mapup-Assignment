@@ -133,3 +133,4 @@ type VehicleLocationRecord struct {
 	RecordedAt time.Time `json:"recorded_at" db:"recorded_at"`
 	CreatedAt  time.Time `json:"created_at" db:"created_at"`
 }
+

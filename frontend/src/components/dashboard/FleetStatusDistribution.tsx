@@ -77,3 +77,4 @@ export const FleetStatusDistribution: React.FC<FleetStatusDistributionProps> = (
     </Card>
   )
 }
+

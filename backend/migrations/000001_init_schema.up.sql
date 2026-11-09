@@ -87,3 +87,4 @@ CREATE TABLE IF NOT EXISTS violations (
 CREATE INDEX IF NOT EXISTS idx_violations_vehicle ON violations (vehicle_id);
 CREATE INDEX IF NOT EXISTS idx_violations_geofence ON violations (geofence_id);
 CREATE INDEX IF NOT EXISTS idx_violations_timestamp ON violations (timestamp DESC);
+

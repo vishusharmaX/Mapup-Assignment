@@ -129,3 +129,4 @@ func (s *vehicleService) GetLastLocation(ctx context.Context, vehicleID uuid.UUI
 	}
 	return s.repo.GetLastLocation(ctx, vehicleID)
 }
+

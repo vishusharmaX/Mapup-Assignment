@@ -18,3 +18,4 @@ export function useStats() {
     timeNs: query.data?.time_ns,
   }
 }
+

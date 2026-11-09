@@ -261,3 +261,4 @@ func (r *vehicleRepo) Count(ctx context.Context) (total int, active int, err err
 	`).Scan(&total, &active)
 	return total, active, err
 }
+

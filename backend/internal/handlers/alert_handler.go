@@ -114,3 +114,4 @@ func (h *AlertHandler) Toggle(w http.ResponseWriter, r *http.Request) {
 		"is_active": body.IsActive,
 	})
 }
+

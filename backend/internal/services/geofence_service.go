@@ -128,3 +128,4 @@ func (s *geofenceService) Delete(ctx context.Context, id uuid.UUID) error {
 	}
 	return s.repo.Delete(ctx, id)
 }
+

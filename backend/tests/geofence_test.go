@@ -155,3 +155,4 @@ func TestLocationUpdateRequestValidation(t *testing.T) {
 		t.Errorf("Expected error for nil vehicle_id, got nil")
 	}
 }
+

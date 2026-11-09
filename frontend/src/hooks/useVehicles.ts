@@ -122,3 +122,4 @@ export function useVehicles() {
     isUpdatingLocation: locationMutation.isPending,
   }
 }
+

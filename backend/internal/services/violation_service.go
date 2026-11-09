@@ -32,3 +32,4 @@ func (s *violationService) GetRecent(ctx context.Context, limit int) ([]models.V
 func (s *violationService) Count(ctx context.Context) (int, error) {
 	return s.repo.Count(ctx)
 }
+

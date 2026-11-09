@@ -90,3 +90,4 @@ func (h *ViolationHandler) History(w http.ResponseWriter, r *http.Request) {
 		"offset":      filter.Offset,
 	})
 }
+

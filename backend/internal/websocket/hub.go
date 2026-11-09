@@ -118,3 +118,4 @@ func (h *Hub) ServeWs(w http.ResponseWriter, r *http.Request) {
 func (h *Hub) Stop() {
 	close(h.done)
 }
+

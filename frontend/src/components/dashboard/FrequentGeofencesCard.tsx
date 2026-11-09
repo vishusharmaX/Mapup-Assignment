@@ -63,3 +63,4 @@ export const FrequentGeofencesCard: React.FC<FrequentGeofencesCardProps> = ({
     </Card>
   )
 }
+

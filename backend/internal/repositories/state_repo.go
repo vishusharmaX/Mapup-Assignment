@@ -68,3 +68,4 @@ func (r *stateRepo) ClearVehicleStates(ctx context.Context, vehicleID uuid.UUID)
 	_, err := r.pool.Exec(ctx, `DELETE FROM vehicle_geofence_states WHERE vehicle_id = $1`, vehicleID)
 	return err
 }
+

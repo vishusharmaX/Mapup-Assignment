@@ -31,3 +31,4 @@ describe('Frontend Formatters & Geospatial Helpers', () => {
     expect(formatTimeAgo(null)).toBe('Never')
   })
 })
+

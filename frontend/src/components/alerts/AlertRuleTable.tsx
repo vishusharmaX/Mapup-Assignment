@@ -152,3 +152,4 @@ export const AlertRuleTable: React.FC<AlertRuleTableProps> = ({
     </div>
   )
 }
+

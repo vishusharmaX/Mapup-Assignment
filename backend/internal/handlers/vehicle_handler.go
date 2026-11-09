@@ -160,3 +160,4 @@ func (h *VehicleHandler) GetLocation(w http.ResponseWriter, r *http.Request) {
 
 	utils.JSON(w, r, http.StatusOK, loc)
 }
+

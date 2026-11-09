@@ -4,3 +4,4 @@ DROP TABLE IF EXISTS vehicle_geofence_states CASCADE;
 DROP TABLE IF EXISTS vehicle_locations CASCADE;
 DROP TABLE IF EXISTS vehicles CASCADE;
 DROP TABLE IF EXISTS geofences CASCADE;
+

@@ -231,3 +231,4 @@ func (r *geofenceRepo) Count(ctx context.Context) (int, error) {
 	err := r.pool.QueryRow(ctx, "SELECT COUNT(*) FROM geofences").Scan(&count)
 	return count, err
 }
+

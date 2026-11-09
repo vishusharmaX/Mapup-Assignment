@@ -105,3 +105,4 @@ func (c *Client) Close() {
 		close(c.send)
 	})
 }
+

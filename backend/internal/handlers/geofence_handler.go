@@ -123,3 +123,4 @@ func (h *GeofenceHandler) Delete(w http.ResponseWriter, r *http.Request) {
 		"id":      id,
 	})
 }
+

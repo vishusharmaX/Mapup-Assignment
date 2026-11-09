@@ -16,3 +16,4 @@ func NewCORS(allowedOrigins []string) func(http.Handler) http.Handler {
 		MaxAge:           300,
 	})
 }
+

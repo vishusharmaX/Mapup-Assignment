@@ -207,3 +207,4 @@ func (r *alertRepo) Count(ctx context.Context) (total int, active int, err error
 	`).Scan(&total, &active)
 	return total, active, err
 }
+

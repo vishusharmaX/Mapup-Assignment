@@ -52,3 +52,4 @@ export const KpiCard: React.FC<KpiCardProps> = ({
     </Card>
   )
 }
+

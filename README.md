@@ -237,3 +237,4 @@ Follow these steps to evaluate the end-to-end functionality of FleetPulse:
 - [x] Dockerfile (backend & frontend) and docker-compose.yml are configured for multi-stage production deployment.
 - [x] Go unit & integration tests pass with race condition detector (`-race`).
 - [x] Comprehensive documentation provided in `README.md` and `SETUP.md`.
+

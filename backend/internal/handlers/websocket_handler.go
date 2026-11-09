@@ -18,3 +18,4 @@ func NewWebSocketHandler(hub *websocket.Hub) *WebSocketHandler {
 func (h *WebSocketHandler) Handle(w http.ResponseWriter, r *http.Request) {
 	h.hub.ServeWs(w, r)
 }
+

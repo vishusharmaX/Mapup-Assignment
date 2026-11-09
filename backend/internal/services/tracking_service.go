@@ -253,3 +253,4 @@ func (s *trackingService) ProcessLocation(ctx context.Context, req models.Locati
 		Events:           responseEvents,
 	}, nil
 }
+

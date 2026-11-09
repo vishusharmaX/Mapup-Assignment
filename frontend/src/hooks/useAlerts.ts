@@ -72,3 +72,4 @@ export function useAlerts(geofenceId?: string, vehicleId?: string) {
     toggleAlert: toggleMutation.mutateAsync,
   }
 }
+

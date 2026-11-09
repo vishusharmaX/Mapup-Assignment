@@ -70,3 +70,4 @@ export const RecentEventsFeed: React.FC<RecentEventsFeedProps> = ({
     </Card>
   )
 }
+

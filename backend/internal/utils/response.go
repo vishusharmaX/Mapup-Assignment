@@ -81,3 +81,4 @@ func JSONValidationError(w http.ResponseWriter, r *http.Request, message string,
 	w.WriteHeader(http.StatusBadRequest)
 	_ = json.NewEncoder(w).Encode(resp)
 }
+

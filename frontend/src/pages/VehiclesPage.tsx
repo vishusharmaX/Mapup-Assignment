@@ -84,3 +84,4 @@ export const VehiclesPage: React.FC<VehiclesPageProps> = ({
     </div>
   )
 }
+

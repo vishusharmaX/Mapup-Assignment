@@ -95,3 +95,4 @@ func (h *StatsHandler) Overview(w http.ResponseWriter, r *http.Request) {
 		"frequent_geofences":  topGeofences,
 	})
 }
+
