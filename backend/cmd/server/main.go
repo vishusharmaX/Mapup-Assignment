@@ -49,6 +49,11 @@ func main() {
 		slog.Warn("Migration execution notice", "warning", err)
 	}
 
+	// Auto-seed initial demo data if database is fresh
+	if err := database.SeedDemoData(context.Background(), pool); err != nil {
+		slog.Warn("Auto-seed notice", "warning", err)
+	}
+
 	// 4. Initialize WebSocket Hub
 	wsHub := websocket.NewHub()
 	go wsHub.Run()
