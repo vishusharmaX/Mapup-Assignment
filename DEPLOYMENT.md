@@ -67,7 +67,7 @@ FleetPulse requires PostgreSQL 15+ with the **PostGIS** geospatial extension ena
 5. Go to **Project Settings > Database > Connection string > URI**.
 6. Copy the connection string. It will look like:
    ```text
-   postgresql://postgres.[REF]:[YOUR-PASSWORD]@aws-0-[REGION].pooler.supabase.com:6543/postgres?sslmode=require
+   postgresql://postgres.cfkgqdnqefmdhflrtqxo:vishu%40A20041234@aws-0-ap-southeast-2.pooler.supabase.com:5432/postgres?sslmode=require
    ```
 
 *(Alternative: You can also use [neon.tech](https://neon.tech) or [railway.app](https://railway.app) which both natively support PostGIS).*
